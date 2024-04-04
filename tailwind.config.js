@@ -13,6 +13,10 @@ module.exports = {
       boxShadow: {
         highlight: "inset 0 0 0 1px rgba(255, 255, 255, 0.05)",
       },
+      colors: {
+        "classic-grey": "#171717",
+        "classic-bg": "#111111",
+      },
       screens: {
         narrow: { raw: "(max-aspect-ratio: 3 / 2)" },
         wide: { raw: "(min-aspect-ratio: 3 / 2)" },
